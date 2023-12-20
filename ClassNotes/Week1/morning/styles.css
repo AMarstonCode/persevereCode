@@ -1,0 +1,23 @@
+h2 {
+    color: red;
+    background-color: pink;
+ }
+
+ input {
+     display: block;
+     width: 150px;
+     height: 30px;
+ }
+
+ #numberInput {
+     width: 200px;
+ }
+
+ #formOne {
+     background-color: red !important;
+ }
+
+ .grey-background {
+     background-color: grey !important;
+
+ }

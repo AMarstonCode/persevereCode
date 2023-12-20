@@ -1,0 +1,69 @@
+h1 {
+    width: 150px;
+    background-color: red;
+}
+
+a[href] {
+    text-decoration: none;
+}
+
+a[class="first-link"] {
+    color: red;
+}
+
+[class="second-link"] {
+    color: orange;
+}
+
+/*Pipe- Selects all elments with the class attribute that starts with the WORD "second". */
+/* [class|="second"] {
+    background-color: green;
+} */
+
+/*Caret- Selects all elments with the class attribute that starts with the CHARACTERS "sec". */
+[class^="sec"] {
+    background-color: green;
+}
+
+/*Money- Selects all elements that end with a specified value */
+[class$="link"] {
+    font-style: italic;
+}
+
+/*Astrisk- Selects all elements whose attribute value contains a specified value. NOTE: Does not have to be a whole word.*/
+[class*="on"] {
+    text-decoration: line-through;
+}
+
+/* Targeting nested elmenets */
+
+/* targets every anchor in a paragraph */
+p a {
+  font-family: fantasy;  
+}
+/* targets every anchor in a second-para class */
+.second-para a {
+    font-size: 7px;
+}
+
+/* targets more than one element */
+h1,p {
+    font-size: 12px;
+}
+
+h1,[href] {
+    font-size: 25px;
+}
+
+input {
+    display: block;
+    margin: 10px;
+}
+
+input[type="number"] {
+    width: 50px;
+}
+
+[type="email"] {
+    color: red;
+}

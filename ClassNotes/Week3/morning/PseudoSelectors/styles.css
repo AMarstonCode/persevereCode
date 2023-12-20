@@ -1,0 +1,57 @@
+a {
+    display: block;
+}
+
+/* Pseudo-Selectors */
+
+/* Pseudo-Classes */
+/* :hover -- changes things when a user hovers over the element*/
+button:hover {
+   background-color: black;
+   color: white;
+}
+
+/* :link -- An unvisited link */
+a:link {
+    color: green;
+}
+
+/* :visited -- A visited link */
+a:visited {
+    color: red;
+}
+
+/* Pseudo-Elements */
+/* ::first-line -- Used to add special style to the first line of text */
+.first::first-line {
+    text-decoration: line-through;
+}
+
+/* ::first-letter -- Used to add special style to the first letter of text */
+.second::first-letter {
+    font-size: 35px;
+    font-family: fantasy;
+    background-color: black;
+    color: white;
+}
+
+/* ::before -- Used to insert some content before the content of an element */
+.red-box {
+    width: 150px;
+    height: 150px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+}
+
+.red-box::before {
+    content: "";
+    position: absolute;
+}
+
+/* ::after -- Used to insert some content after the content of an element */
+
+.red-box::after {
+    content: "";
+    position: absolute;
+}

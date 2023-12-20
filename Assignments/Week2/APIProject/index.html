@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="orange" class="bi bi-egg-fried pb-3" viewBox="0 0 10 10">
+                <path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                <path d="M13.997 5.17a5 5 0 0 0-8.101-4.09A5 5 0 0 0 1.28 9.342a5 5 0 0 0 8.336 5.109 3.5 3.5 0 0 0 5.201-4.065 3.001 3.001 0 0 0-.822-5.216zm-1-.034a1 1 0 0 0 .668.977 2.001 2.001 0 0 1 .547 3.478 1 1 0 0 0-.341 1.113 2.5 2.5 0 0 1-3.715 2.905 1 1 0 0 0-1.262.152 4 4 0 0 1-6.67-4.087 1 1 0 0 0-.2-1 4 4 0 0 1 3.693-6.61 1 1 0 0 0 .8-.2 4 4 0 0 1 6.48 3.273z"/>
+              </svg>
+              <span class="display-5">Recify</span>
+          </a>
+        </div>
+      </nav>
+    <div class="container p-5 main-content">
+        <h1 class="display-2 text-center">Recipies</h1>
+        <p class="my-5 description">
+            Discovering new and delicious recipes has never been easier, thanks to the user-friendly and inspiring website "Epicurean Delights." This culinary haven provides a curated selection of the top ten recipes tailored to your preferences. Whether you're an aspiring chef, a busy parent, or someone simply seeking culinary adventure, Epicurean Delights has you covered. The site's intuitive interface allows you to choose from a variety of categories such as cuisine type, dietary preferences, or even specific ingredients. With a focus on simplicity and taste, each recipe is accompanied by clear instructions and vibrant visuals, making the cooking process a delightful experience. From mouthwatering desserts to savory main courses, Epicurean Delights ensures that you can explore, create, and savor the finest dishes right in the comfort of your kitchen. Whether you're a seasoned cook or just starting your culinary journey, this site is a go-to resource for discovering and mastering the art of gastronomy.
+        </p>
+        <div class="container my-4">
+            <div class="row d-flex justify-content-center">
+                <div class="col-6">
+                    <input id="searchBox" type="text" placeholder="What recipes are you looking for..." class="form-control col-1">
+                </div>
+            </div>
+            <div class="text-center">
+                <button id="searchButton" class="btn btn-primary text my-3 col-1">Search</button>
+            </div>
+        </div>
+    </div>
+    <hr class="divider">
+    <div class="container">
+        <div id="recipeInfo" class="row">
+
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
